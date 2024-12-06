@@ -10,10 +10,10 @@ public class CloudVendorAPIService {
 
     @GetMapping("{vendorId}")
     public CloudVendor getCloudVendorDetails(String vendorId) {
-//        return new CloudVendor("C1","Vaibhav",
-//                "Pune","12345");
+        return new CloudVendor("C1","Vaibhav",
+                "Pune","12345");
 
-        return cloudVendor;
+//        return cloudVendor;
     }
 
     @PostMapping
